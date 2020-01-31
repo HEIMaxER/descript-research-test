@@ -1,4 +1,5 @@
 admin/*
 **.pyc
 notebooks/.ipynb_checkpoints/*
-data/
+data/*
+! data/X_test.npy
