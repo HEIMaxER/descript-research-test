@@ -5,6 +5,7 @@ import numpy as np
 
 seeds = np.load('../data/X_test.npy', allow_pickle=True)
 unconditional_model = load_model('../models/unconditional_generation_model_double_output_best.h5')
+p = 0.038509945441853315
 
 
 def generate_unconditionally(random_seed=1):
